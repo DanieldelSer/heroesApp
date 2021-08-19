@@ -5,7 +5,7 @@ export interface Heroe {
   alter_ego:        string;
   first_appearance: string;
   characters:       string;
-  code:             string;
+  code?:             string;
   alt_img?:           string;
 }
 

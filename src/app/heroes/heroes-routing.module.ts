@@ -21,7 +21,7 @@ const routes: Routes = [
       },
       {
         path: 'editar/:id',
-        component: ListadoComponent
+        component: AgregarComponent
       },
       {
         path: 'buscar',
